@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KampIntro", "ConsoleApp2\KampIntro.csproj", "{AB4D3707-7582-4483-9E49-531D26C32E0E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Donguler\Donguler.csproj", "{1675B930-B88F-446D-873A-DB09655415F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{49010286-E936-45CC-898D-5AA7E6ABB4B1}"
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB4D3707-7582-4483-9E49-531D26C32E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB4D3707-7582-4483-9E49-531D26C32E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB4D3707-7582-4483-9E49-531D26C32E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB4D3707-7582-4483-9E49-531D26C32E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1675B930-B88F-446D-873A-DB09655415F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1675B930-B88F-446D-873A-DB09655415F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1675B930-B88F-446D-873A-DB09655415F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
