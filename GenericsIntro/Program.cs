@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using GenericsIntro;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        MyList<string> isimler = new MyList<string>();
+        isimler.Add("Yunus");
+
+    }
+}
