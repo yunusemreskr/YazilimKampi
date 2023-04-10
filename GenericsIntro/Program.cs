@@ -7,5 +7,7 @@ internal class Program
         MyList<string> isimler = new MyList<string>();
         isimler.Add("Yunus");
 
+        
+
     }
 }
