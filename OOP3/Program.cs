@@ -9,12 +9,19 @@ internal class Program
         IKrediManager tasitKrediManager = new TasitKrediManager();
         IKrediManager konutKrediManager = new KonutKrediManager();
 
+        ILoggerService databaseLoggerService = new DataBaseLoggerService();
+        ILoggerService fileLoggerService = new FileLoggerService();
+
+        List<ILoggerService> loggers = new List<ILoggerService> {new SmsLoggerService(), new FileLoggerService()  };
+
         BasvuruManager basvuruManager = new BasvuruManager();
-        //basvuruManager.BasvuruYap(ihtiyacKrediManager);
+        basvuruManager.BasvuruYap(new EsnafKrediManager(), loggers);
 
-        List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager, konutKrediManager  };
+        List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager,tasitKrediManager, konutKrediManager };
 
-        basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+        //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+
+
 
     }
 }
